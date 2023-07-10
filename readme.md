@@ -4,13 +4,13 @@ This repository contains a custom AdaBoost implementation, created from scratch 
 ## What is AdaBoost?
 AdaBoost (Adaptive Boosting) is a powerful ensemble machine learning algorithm. It works by combining multiple "weak classifiers" into a single "strong classifier". A weak classifier (or weak learner) is a machine learning model that achieves accuracy just above random chance on a binary classification problem. The most suited and therefore most common algorithm used within AdaBoost is the Decision Tree algorithm. The weak learners in AdaBoost are usually decision trees with a single split, called decision stumps.
 
-![AdaBoost Weak-Learners](./images/weak-learners.png)
+![AdaBoost Weak-Learners](./images/weak-learners.png)   
 [Source: CMU Boosting Lecturer Notes](https://www.stat.cmu.edu/~ryantibs/datamining/lectures/25-boost.pdf)
 
 AdaBoost is adaptive in the sense that subsequent weak learners are tweaked in favor of those instances misclassified by previous classifiers. AdaBoost is sensitive to noisy data and outliers but is less likely to overfit than other learning algorithms.
 
 ## Pseudocode
-![AdaBoost Pseudocode](./images/pseudocode.png)
+![AdaBoost Pseudocode](./images/pseudocode.png)   
 [Source: Python Machine Learning Third Edition](https://falksangdata.no/wp-content/uploads/2022/07/python-machine-learning-and-deep-learning-with-python-scikit-learn-and-tensorflow-2.pdf)
 
 ## Repository Structure
